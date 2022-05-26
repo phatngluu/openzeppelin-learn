@@ -2,9 +2,83 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/steven/codekeeper/javac/github/openzeppelin-learn/contracts/Box.sol": {
-      "lastModificationDate": 1653539754643,
-      "contentHash": "5ab11082327652b2cfa910511a7a1b14",
+      "lastModificationDate": 1653540491665,
+      "contentHash": "c46b93089373ab07d0808509bf00a339",
       "sourceName": "contracts/Box.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Box"
+      ]
+    },
+    "/home/steven/codekeeper/javac/github/openzeppelin-learn/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1653540101556,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/steven/codekeeper/javac/github/openzeppelin-learn/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1653540101480,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -33,7 +107,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Box"
+        "Context"
       ]
     }
   }
